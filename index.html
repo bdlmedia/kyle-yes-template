@@ -15,6 +15,10 @@
 			display: none;
 		}
 
+		.searchingBox {
+			display: none;
+		}
+
 
 		</style>
 		
@@ -22,6 +26,14 @@
 	</head>
 
 	<body class="bg-dark">
+
+		<div class="searchingBox">
+
+			<h2> TESTING </h2>
+
+
+
+		</div>
 
 		<div class="container">
 			<div class="row justify-content-center">
@@ -150,15 +162,14 @@
 					$("#second").show();
 					$("#progressBar").css("width", "60%");
 					$("#progressText").text("Step - 2");
-
 				});
 
-				
+				$("#submit").click(function() {
+					$(".container").hide();
+					$(".searchingBox").show();
+					
 
-
-
-
-				
+				});
 
 
 			});
