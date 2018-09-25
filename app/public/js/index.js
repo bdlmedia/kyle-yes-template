@@ -37,12 +37,16 @@ $(document).ready(function() {
 					$("#loadingBar").show();
 
 					setTimeout(function(){
+
+						//changes text
 						document.getElementById("findingOfferText").innerHTML="View Your Offer!";
+						//gets background of view your offer text
 						var x = document.getElementById("newBox");
 						x.className = "progress-bar bg-success";
+
+						//changes text background to match 
 						var y = document.getElementById("findingOfferText");
 						y.className = "lead bg-success";
-						
 						
 						},3000);
 
