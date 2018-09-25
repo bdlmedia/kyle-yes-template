@@ -36,6 +36,10 @@ $(document).ready(function() {
 					$("#formBox").hide();
 					$("#loadingBar").show();
 
+					setTimeout(function(){
+						document.getElementById("findingOfferText").innerHTML="Found an offer!";
+						},3000);
+
 				});
 
 
@@ -43,7 +47,6 @@ $(document).ready(function() {
 					$("#formBox").show();
 					$("#popup").hide();
 				});
-
 			});
 
 
