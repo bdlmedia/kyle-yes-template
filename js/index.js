@@ -32,11 +32,19 @@ $(document).ready(function() {
 				});
 
 				$("#submit").click(function() {
-					$(".container").hide();
-					$(".searchingBox").show();
-
+					$("#formBox").hide();
+					$("#formBox").hide();
+					$("#loadingBar").show();
 
 				});
 
 
+				$("#closePopup").click(function() {
+					$("#formBox").show();
+					$("#popup").hide();
+				});
+
 			});
+
+
+			

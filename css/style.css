@@ -2,12 +2,23 @@
 	
 	display: none;
 }
-
+/*
 .popupText {
 	border: solid black 1px;
 	padding: 5px;
+}*/
+
+ #prgressText a {
+	color: white;
+} 
+
+#formBox {
+	display: none;
 }
 
-#progressText a {
-	color: white;
+#loadingBar {
+	display: none;
+}
+#offerFound {
+	display: none;
 }
