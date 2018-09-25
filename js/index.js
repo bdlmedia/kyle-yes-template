@@ -38,6 +38,7 @@ $(document).ready(function() {
 
 					setTimeout(function(){
 						document.getElementById("findingOfferText").innerHTML="Found an offer!";
+						
 						},3000);
 
 				});
@@ -47,6 +48,12 @@ $(document).ready(function() {
 					$("#formBox").show();
 					$("#popup").hide();
 				});
+
+				$("#findingOfferText").click(function() {
+					window.location.replace("http://stackoverflow.com");
+				});
+
+
 			});
 
 
