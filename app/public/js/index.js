@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+//limit 10,000 requests per hour 
+	$.getJSON('https://json.geoiplookup.io/', function(data) {
+  		console.log(JSON.stringify(data, null, 2));
+});
+
 				$("#next-1").click(function() {
 					$("#second").show();
 					$("#first").hide();
