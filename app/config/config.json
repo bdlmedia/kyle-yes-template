@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "root",
+      "password": null,
+      "database": "bespoke_db",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "bespoke_db",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "baddlabsdatabase",
+      "password": "BaddLabs2018!",
+      "database": "baddlabsdb",
+      "host": "baddlabsdb.cxpwsiho9xhx.us-west-2.rds.amazonaws.com",
+      "dialect": "mysql"
+    }
+  }
