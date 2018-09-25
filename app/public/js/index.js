@@ -37,7 +37,12 @@ $(document).ready(function() {
 					$("#loadingBar").show();
 
 					setTimeout(function(){
-						document.getElementById("findingOfferText").innerHTML="Found an offer!";
+						document.getElementById("findingOfferText").innerHTML="View Your Offer!";
+						var x = document.getElementById("newBox");
+						x.className = "progress-bar bg-success";
+						var y = document.getElementById("findingOfferText");
+						y.className = "lead bg-success";
+						
 						
 						},3000);
 
