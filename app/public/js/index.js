@@ -1,11 +1,15 @@
 $(document).ready(function() {
 
-//limit 10,000 requests per hour 
+/* 
+
+Pull user location data api
 	$.getJSON('https://json.geoiplookup.io/', function(data) {
   		console.log(JSON.stringify(data, null, 2));
   		//get only country code
   		console.log("Country Code :" + JSON.stringify(data.country_code, null, 2));
 });
+
+*/
 
 				$("#next-1").click(function() {
 					$("#second").show();
